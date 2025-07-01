@@ -202,9 +202,9 @@
                     <p class="text-sm text-purple-300 mb-4">Возраст: 4-12 лет</p>
                     <div class="flex items-center justify-between">
                         <span class="text-3xl font-bold text-yellow-400">1990 ₽</span>
-                        <button class="order-btn bg-purple-600 hover:bg-purple-700 px-6 py-2 rounded-full transition-colors" data-product="Дабуду - Хранитель Мечты" data-price="1990">
+                        <a href="https://t.me/dabudustorebot?start=dabudu" target="_blank" rel="noopener noreferrer" class="order-btn bg-purple-600 hover:bg-purple-700 px-6 py-2 rounded-full transition-colors">
                             Заказать
-                        </button>
+                        </a>
                     </div>
                 </div>
 
@@ -226,9 +226,9 @@
                     <p class="text-sm text-blue-300 mb-4">Возраст: 5-14 лет</p>
                     <div class="flex items-center justify-between">
                         <span class="text-3xl font-bold text-yellow-400">2190 ₽</span>
-                        <button class="order-btn bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-full transition-colors" data-product="Люминус - Страж Света" data-price="2190">
+                        <a href="https://t.me/dabudustorebot?start=luminus" target="_blank" rel="noopener noreferrer" class="order-btn bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-full transition-colors">
                             Заказать
-                        </button>
+                        </a>
                     </div>
                 </div>
 
@@ -250,9 +250,9 @@
                     <p class="text-sm text-green-300 mb-4">Возраст: 3-10 лет</p>
                     <div class="flex items-center justify-between">
                         <span class="text-3xl font-bold text-yellow-400">1890 ₽</span>
-                        <button class="order-btn bg-green-600 hover:bg-green-700 px-6 py-2 rounded-full transition-colors" data-product="Дабл Дооо - Победитель Страхов" data-price="1890">
+                        <a href="https://t.me/dabudustorebot?start=dabldooo" target="_blank" rel="noopener noreferrer" class="order-btn bg-green-600 hover:bg-green-700 px-6 py-2 rounded-full transition-colors">
                             Заказать
-                        </button>
+                        </a>
                     </div>
                 </div>
 
@@ -269,9 +269,9 @@
                             <span class="text-4xl font-bold text-yellow-400">4990 ₽</span>
                             <span class="text-lg text-green-400 ml-4">(экономия 1090 ₽)</span>
                         </div>
-                        <button class="order-btn bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 px-8 py-3 rounded-full transition-colors text-lg font-semibold" data-product="Набор Три Стража" data-price="4990">
+                        <a href="https://t.me/dabudustorebot?start=triostrazha" target="_blank" rel="noopener noreferrer" class="order-btn bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 px-8 py-3 rounded-full transition-colors text-lg font-semibold">
                             Заказать комплект
-                        </button>
+                        </a>
                     </div>
                 </div>
 
@@ -288,9 +288,9 @@
                     <p class="text-sm text-red-400 mb-4">Только 500 экземпляров</p>
                     <div class="flex items-center justify-between">
                         <span class="text-3xl font-bold text-yellow-400">2990 ₽</span>
-                        <button class="order-btn bg-yellow-600 hover:bg-yellow-700 px-6 py-2 rounded-full transition-colors" data-product="Дабуду Премиум" data-price="2990">
+                        <a href="https://t.me/dabudustorebot?start=dabudupremium" target="_blank" rel="noopener noreferrer" class="order-btn bg-yellow-600 hover:bg-yellow-700 px-6 py-2 rounded-full transition-colors">
                             Заказать
-                        </button>
+                        </a>
                     </div>
                 </div>
 
@@ -304,9 +304,9 @@
                     <p class="text-sm text-indigo-300 mb-4">Мини-версии всех персонажей</p>
                     <div class="flex items-center justify-between">
                         <span class="text-3xl font-bold text-yellow-400">990 ₽</span>
-                        <button class="order-btn bg-indigo-600 hover:bg-indigo-700 px-6 py-2 rounded-full transition-colors" data-product="Стартовый набор" data-price="990">
+                        <a href="https://t.me/dabudustorebot?start=startnabor" target="_blank" rel="noopener noreferrer" class="order-btn bg-indigo-600 hover:bg-indigo-700 px-6 py-2 rounded-full transition-colors">
                             Заказать
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -332,63 +332,6 @@
             </div>
         </div>
     </section>
-
-    <!-- Order Modal -->
-    <div id="order-modal" class="fixed inset-0 bg-black bg-opacity-75 z-50 hidden items-center justify-center p-4">
-        <div class="bg-gray-800 rounded-2xl p-8 max-w-md w-full relative">
-            <button id="close-modal" class="absolute top-4 right-4 text-gray-400 hover:text-white">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-                </svg>
-            </button>
-            
-            <h3 class="text-2xl font-bold mb-6 text-purple-300">Оформить предзаказ</h3>
-            
-            <form id="order-form" class="space-y-4">
-                <div>
-                    <label class="block text-sm font-medium text-gray-300 mb-2">Товар</label>
-                    <input type="text" id="product-name" readonly class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white">
-                </div>
-                
-                <div>
-                    <label class="block text-sm font-medium text-gray-300 mb-2">Имя</label>
-                    <input type="text" id="customer-name" required class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white focus:border-purple-500 focus:outline-none">
-                </div>
-                
-                <div>
-                    <label class="block text-sm font-medium text-gray-300 mb-2">Телефон</label>
-                    <input type="tel" id="customer-phone" required class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white focus:border-purple-500 focus:outline-none">
-                </div>
-                
-                <div>
-                    <label class="block text-sm font-medium text-gray-300 mb-2">Email</label>
-                    <input type="email" id="customer-email" required class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white focus:border-purple-500 focus:outline-none">
-                </div>
-                
-                <div>
-                    <label class="block text-sm font-medium text-gray-300 mb-2">Количество</label>
-                    <select id="quantity" class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white focus:border-purple-500 focus:outline-none">
-                        <option value="1">1 шт.</option>
-                        <option value="2">2 шт.</option>
-                        <option value="3">3 шт.</option>
-                        <option value="4">4 шт.</option>
-                        <option value="5">5 шт.</option>
-                    </select>
-                </div>
-                
-                <div class="border-t border-gray-600 pt-4">
-                    <div class="flex justify-between items-center text-lg font-semibold">
-                        <span>Итого:</span>
-                        <span id="total-price" class="text-yellow-400">1990 ₽</span>
-                    </div>
-                </div>
-                
-                <button type="submit" class="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 py-3 rounded-lg font-semibold transition-colors">
-                    Оформить предзаказ
-                </button>
-            </form>
-        </div>
-    </div>
 
     <!-- Footer -->
     <footer id="contact" class="py-20 bg-black bg-opacity-25 border-t border-purple-500/20">

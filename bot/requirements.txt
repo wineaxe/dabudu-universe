@@ -1,0 +1,6 @@
+aiogram>=3.5.0
+aiosqlite
+python-dotenv
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib 
