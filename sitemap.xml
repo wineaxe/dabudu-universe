@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  
+  <!-- Main page -->
+  <url>
+    <loc>http://dabudu.store/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>http://dabudu.store/images/hero-dabudu.jpg</image:loc>
+      <image:title>Вселенная Дабуду - Главная страница</image:title>
+      <image:caption>Коллекционные игрушки для развития детей</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- Characters section -->
+  <url>
+    <loc>http://dabudu.store/#characters</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>http://dabudu.store/images/dabudu-character.jpg</image:loc>
+      <image:title>Дабуду - Хранитель Мечты</image:title>
+      <image:caption>Помогает преодолеть застенчивость и поверить в себя</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://dabudu.store/images/luminus-character.jpg</image:loc>
+      <image:title>Люминус - Страж Света</image:title>
+      <image:caption>Развивает воображение и творческие способности</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://dabudu.store/images/double-doo-character.jpg</image:loc>
+      <image:title>Дабл Дооо - Победитель Страхов</image:title>
+      <image:caption>Превращает страхи в смех и уверенность</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- Universe section -->
+  <url>
+    <loc>http://dabudu.store/#universe</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Contact section -->
+  <url>
+    <loc>http://dabudu.store/#contact</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Manifest file -->
+  <url>
+    <loc>http://dabudu.store/manifest.json</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+</urlset> 
